@@ -1,0 +1,19 @@
+@font-face {
+    font-family: myOutfit;
+    src: url('../assets/fonts/outfit/Outfit-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family: myYoungSerifReg;
+    src: url('../assets/fonts/young-serif/YoungSerif-Regular.ttf');
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    background-color: hsl(30, 54%, 90%);
+}
